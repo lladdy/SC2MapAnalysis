@@ -7,7 +7,8 @@ from typing import Any, Dict, Optional, Tuple, TYPE_CHECKING, Union
 import numpy as np
 from loguru import logger
 from numpy import ndarray
-from sc2 import BotAI
+
+from sc2.bot_ai import BotAI
 from sc2.position import Point2, Point3
 
 from .constants import COLORS, LOG_FORMAT, LOG_MODULE
